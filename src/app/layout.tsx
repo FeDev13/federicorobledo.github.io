@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Marco Toniut",
+  title: "Federico Robledo",
 };
 
 export default function RootLayout({

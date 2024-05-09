@@ -24,9 +24,9 @@ import { isPDFPrinting } from "../../env";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Marco Toniut | Curriculum Vitae",
+  title: "Federico Robledo Curriculum Vitae",
   description:
-    "This is my professional Curriculum Vitae in interactive web format - Marco Toniut",
+    "professional Curriculum Vitae in interactive web format",
 };
 
 function useTargetProps() {
@@ -38,23 +38,19 @@ export default function CV() {
   return (
     <div {...sheetProps} className={docCn}>
       <main>
-        <H1 id="me">Marco Stefano Toniut</H1>
+        <H1 id="me">Federico Robledo</H1>
         <article>
           <section className={sectionCn}>
-            <H3 id="systems-engineer">Systems Engineer</H3>
+            <H3 id="systems-engineer">Lawyer</H3>
             <p>
-              As an independent developer for a significant part of my career,
-              {" I've"} tackled diverse tasks across various companies and
-              clients, cultivating an eclectic range of technical knowledge and
-              a commitment to self-actualisation.
+              {"I'm"} a lawyer with 8 years of experience in different legal areas such as Civil, Family and Healthcare Law and during my career
+              {" I've"} tackled diverse cases across various areas and dealt with different
+              clients, that have made me an experienced professional and provided with numerous skills
             </p>
             <p>
-              In leadership, mentoring, and negotiation roles, {"I've "}
-              successfully coordinated development teams, championing the
-              adoption of modern techniques and tools. Detail-oriented and
-              experimental in my coding approach, I prioritise deadlines and
-              milestones, planning tasks meticulously for on-time project
-              completion.
+              During my career I had the opportunity to work in important cases that required team work, taking leadership
+              and mentoring colleagues as well, always striving to promote free thinking and innovative solutions. Currently
+              I am focusing in litigation against private healthcare providers that deny treatments, medications or in some way violate patients rights
             </p>
           </section>
           <H2 id="work-experience">Work Experience</H2>
